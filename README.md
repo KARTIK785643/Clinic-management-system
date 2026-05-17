@@ -1,1 +1,1 @@
-# Clinic-mnagement-system
+# Clinic-management-system

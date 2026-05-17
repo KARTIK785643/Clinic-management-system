@@ -1,5 +1,7 @@
 # 🏥 CareSync - Clinic Appointment & Queue Management System
 
+Deployed Link : https://clinic-management-system-gek5.vercel.app/
+
 CareSync is a premium, full-stack, role-based clinic management and appointment system. It is designed to streamline healthcare scheduling by connecting patients, doctors, and administrators in a unified, beautiful, and highly intuitive digital ecosystem. 
 
 Featuring a **live queue token system**, role-based authentication, and a responsive glassmorphism UI, CareSync completely replaces outdated booking workflows with a state-of-the-art clinic experience.
@@ -81,15 +83,6 @@ Clinic-management-system/
    ```bash
    npm install
    ```
-3. Create a `.env` file inside the `backend` folder and populate it:
-   ```env
-   NODE_ENV=development
-   PORT=5000
-   MONGO_URI=your_mongodb_connection_string
-   JWT_SECRET=your_jwt_secret_key
-   ADMIN_EMAIL=admin@admin.com
-   ADMIN_PASSWORD=admin123
-   ```
 4. Start the server in development mode:
    ```bash
    npm run dev
@@ -108,27 +101,5 @@ Clinic-management-system/
    ```bash
    npm run dev
    ```
-4. Open [http://localhost:5173](http://localhost:5173) in your browser!
 
----
 
-## ☁️ Production Deployment
-
-### **Backend (on Render)**
-1. Host your `backend` directory as a **Web Service**.
-2. Configure the build/start commands:
-   * **Build Command**: `npm install`
-   * **Start Command**: `node server.js`
-3. Add your environment variables (`MONGO_URI`, `JWT_SECRET`, `ADMIN_EMAIL`, `ADMIN_PASSWORD`) securely in the Render dashboard.
-
-### **Frontend (on Vercel)**
-1. Host your `clinic-appointment` folder as a project.
-2. Under **Environment Variables**, add:
-   * `VITE_API_URL` = `https://your-backend-url.onrender.com` (Do not worry about trailing slashes, they are sanitized automatically).
-3. Deploy!
-
----
-
-## 🔒 Security Best Practices
-* **Zero exposed credentials**: Your `.env` files are completely ignored using a global `.gitignore` layout.
-* **Dynamic API Sanitization**: All endpoint calls dynamically sanitize trailing slashes to prevent server routing bypass or standard double-slash `404` errors in cloud hosting environments.

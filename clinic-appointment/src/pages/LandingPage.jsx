@@ -80,7 +80,7 @@ const LandingPage = ({ onNavigateLogin }) => {
             WebkitBackgroundClip: scrolled ? "text" : "unset",
             WebkitTextFillColor: scrolled ? "transparent" : "#ffffff",
             transition: "all 0.3s ease",
-          }}>Apna Clinic</span>
+          }}>SmartClinic</span>
         </div>
 
         <button onClick={onNavigateLogin} style={{
@@ -120,7 +120,7 @@ const LandingPage = ({ onNavigateLogin }) => {
           animation: "fadeSlide 0.6s ease",
         }}>
           <span style={{ width: 7, height: 7, borderRadius: "50%", background: "#22d3ee", display: "inline-block", boxShadow: "0 0 8px #22d3ee" }} />
-          Now live — Smart Queue Management
+          Now live — Smart Clinic Management system
         </div>
 
         {/* Headline */}
@@ -142,7 +142,7 @@ const LandingPage = ({ onNavigateLogin }) => {
           lineHeight: 1.7, marginBottom: 44, fontWeight: 400,
           animation: "fadeSlide 0.7s ease 0.2s both",
         }}>
-          CareSync connects patients and doctors through smart appointment scheduling, live queue tokens, and role-based dashboards — all in one platform.
+          SmartClinic connects patients and doctors through smart appointment scheduling, live queue tokens, and role-based dashboards — all in one platform.
         </p>
 
         {/* CTA */}
@@ -277,7 +277,7 @@ const LandingPage = ({ onNavigateLogin }) => {
       <section style={{ padding: "100px 40px", background: "linear-gradient(145deg,#0f172a,#1e1b4b)" }}>
         <div style={{ maxWidth: 1000, margin: "0 auto", textAlign: "center" }}>
           <span style={{ fontSize: 13, fontWeight: 700, color: "#60a5fa", textTransform: "uppercase", letterSpacing: "1px" }}>For Everyone</span>
-          <h2 style={{ fontSize: 42, fontWeight: 900, color: "#fff", margin: "12px 0 14px", letterSpacing: "-1px" }}>Who Uses Apna clinic?</h2>
+          <h2 style={{ fontSize: 42, fontWeight: 900, color: "#fff", margin: "12px 0 14px", letterSpacing: "-1px" }}>Who Uses SmartClinic?</h2>
           <p style={{ fontSize: 17, color: "#64748b", maxWidth: 460, margin: "0 auto 56px", lineHeight: 1.7 }}>Three tailored portals — one seamless experience.</p>
 
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))", gap: 22 }}>
@@ -402,8 +402,8 @@ const LandingPage = ({ onNavigateLogin }) => {
           <span style={{ fontSize: 18, fontWeight: 900, background: "linear-gradient(135deg,#60a5fa,#22d3ee)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>Apna Clinic</span>
         </div>
         <p style={{ fontSize: 13, color: "#475569", margin: "0 0 16px" }}>Smart Clinic Management System</p>
-        <p style={{ fontSize: 12, color: "#ccd0d5ff" }}>© {new Date().getFullYear()} Apna Clinic. All rights reserved.</p>
-        <h2 style={{ color: "white" }}>Developed by Kartik</h2>
+        <p style={{ fontSize: 12, color: "#ccd0d5ff" }}>© {new Date().getFullYear()} SmartClinic. All rights reserved.</p>
+        <h3 style={{ color: "white" }}>Developed by Kartik</h3>
       </footer>
 
       {/* Keyframes */}

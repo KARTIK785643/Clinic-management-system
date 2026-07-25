@@ -97,7 +97,7 @@ const Navbar = ({ role = "patient", activeItem, onNavigate, user }) => {
           <div className="brand-logo">
             <div className="brand-icon">🏥</div>
             <div style={{ display: "flex", flexDirection: "column" }}>
-              <span className="brand-name">Apna Clinic</span>
+              <span className="brand-name">SmartClinic</span>
             </div>
           </div>
           <p className="brand-tagline">Smart Clinic Management</p>

@@ -7,7 +7,7 @@ import {
   updateAppointmentStatus
 } from '../controllers/doctorController.js';
 import { protectDoctor } from '../middleware/authMiddleware.js';
-
+//for both
 const routerInstance = express.Router();
 
 routerInstance.post('/register', registerDoctor);

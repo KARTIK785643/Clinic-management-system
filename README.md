@@ -1,4 +1,4 @@
-# 🏥 CareSync - Clinic Appointment & Queue Management System
+# 🏥 SmartClinic - Smart clinic Management System
 
 Deployed Link : https://clinic-management-system-gek5.vercel.app/
 
